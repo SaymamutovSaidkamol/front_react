@@ -1,0 +1,45 @@
+.card1__wrapepr {
+    width: 100%;
+    margin-top: 73px;
+    display: flex;
+    // flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+    gap: 20px;
+
+    .card {
+        width: 354px;
+        height: 239px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #F6F6F6;
+        border-radius: 22px;
+
+        .card__image {
+            width: 30%;
+            padding: 46px 0 44px 41px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .card__body {
+            width: 100%;
+            width: 70%;
+            padding: 57px 29px 57px 26px;
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+
+            h1 {
+                font-size: 36px;
+            }
+            p{
+                color: #8B8E99;
+            }
+        }
+    }
+}
