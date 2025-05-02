@@ -1,0 +1,24 @@
+.header{
+    position: absolute;
+    width: 100%;
+    &__navbar{
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__collection{
+        display: flex;
+        color: #8B8E99;
+        gap: 27px;
+    }
+    &__options{
+        display: flex;
+        gap: 15px;
+
+        svg{
+            color: white;
+            font-size: 20px;
+        }
+    }
+}
