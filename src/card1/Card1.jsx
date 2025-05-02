@@ -19,6 +19,10 @@ const Card1 = () => {
           </div>
         ))}
       </div>
+      <div class="title">
+        <p class="firts">Find your favourite smart watch.</p>
+        <p class="second">Our Latest Products</p>
+      </div>
     </section>
   );
 };

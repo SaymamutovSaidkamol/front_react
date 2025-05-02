@@ -1,0 +1,67 @@
+.card2__wrapepr {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 20px;
+    overflow: auto;
+    margin-top: 65px;
+
+    .card {
+        width: calc((100% - 40px)/3);
+
+        .card__image {
+            background: #F6F6F6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 29px 41px 27px 43px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .card__body {
+            margin-top: 11px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 11px;
+
+            .card__price {
+                display: flex;
+                gap: 10px;
+
+                .card__price_one {
+                    color: #8B8E99;
+                    text-decoration: line-through;
+
+                }
+            }
+        }
+    }
+
+    .btn {
+        margin-top: 69px;
+        width: 100%;
+        height: 27px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 135px;
+
+        button {
+            width: 196px;
+            height: 46px;
+            border-radius: 15px;
+            background: #3858D6;
+            cursor: pointer;
+            color: white;
+        }
+        button:hover{
+            background: #5570dd;;
+        }
+    }
+
+
+}
